@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ShapeUp</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/libs.min.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-top">
+          <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="Logo" />
+          </a>
+          <nav class="header__menu menu">
+            <div class="menu__btn">
+              <span></span>
+            </div>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link current" href="index.html">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#about">О Нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#trainers">Тренера</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#service">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#reviews">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#price">Цены</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#blog">Блог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contact">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-lang">
+            <select
+              id="cd-dropdown"
+              class="cd-select"
+              onchange="top.location=this.value"
+            >
+              <option value="index_ru.html">Ru</option>
+              <option value="index.html">En</option>
+            </select>
+          </div>
+        </div>
+        <div class="header__main">
+          <div class="header__title">
+            <div class="header__title-top">
+              <span class="header__pretitle">
+                Построй
+              </span>
+              свое тело
+            </div>
+            <div class="header__title-bottom">
+              <span class="header__pretitle">
+                Измени
+              </span>
+              Свою жизнь
+            </div>
+          </div>
+          <div class="header__text">
+            Присоединяйтесь к приветливому спортзалу, который существует, чтобы
+            помочь вам добраться до более здорового места - предоставляя
+            правильную поддержку в нужное время, способами, которые вы хотите.
+          </div>
+          <a class="header__link link" href="#price">Начать</a>
+          <a class="header__link link" href="#about">Подробнее</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about background" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__content animate-top">
+              <div class="about__pretitle pretitle">О ShapeUp</div>
+              <div class="about__title title">
+                Добро пожаловать в здоровую жизнь
+              </div>
+              <div class="about__subtitle">
+                Получите максимум удовольствия от занятий фитнесом с нашими
+                тренировками в небольших группах, индивидуальными программами
+                упражнений.
+              </div>
+              <div class="about__text">
+                Хотя мы верим в силу фитнеса для улучшения жизни, мы также
+                знаем, что упражнения - это тяжелая работа, и каждый может
+                использовать немного больше мотивации. Итак, мы объединили
+                фитнес и развлечения, чтобы мы могли серьезно заняться спортом.
+                Наши тренажерные залы наполнены лучшими в отрасли силовыми и
+                кардио-тренажерами - всем необходимым для отличной тренировки.
+                Наши персональные тренеры мирового класса работают с вами, чтобы
+                испытать все удивительное, что может предложить SHapeUp по
+                невероятно низкой цене.
+              </div>
+              <a class="about__link" href="#">Подробнее</a>
+            </div>
+            <div class="about__video animate-bottom">
+              <iframe
+                width="520"
+                height="520"
+                src="https://www.youtube.com/embed/QLbFX6WtIqw"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trainers background" id="trainers">
+        <div class="trainers__pretitle pretitle">Знакомтесь</div>
+        <div class="trainers__title title">Наши Теренера</div>
+        <div class="container">
+          <div class="trainers__inner">
+            <div
+              class="trainers__item"
+              style="background-image: url(../images/trainer-1.jpg);"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Артем Попов</p>
+                <span class="trainers__work">Фитнес тренер</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(../images/trainer-2.jpg);"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Жанна Николаева</p>
+                <span class="trainers__work">Фитнес тренер</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(../images/trainer-3.jpg);"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Сэм Смит</p>
+                <span class="trainers__work">Фитнес тренер</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-4.jpg);"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Алена Васильева</p>
+                <span class="trainers__work">Фитнес тренер</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(../images/trainer-5.jpg);"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Артур Миров</p>
+                <span class="trainers__work">Фитнес тренер</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service" id="service">
+        <div class="service__pretitle pretitle">Выберите</div>
+        <div class="service__title title">Наши программы</div>
+        <div class="container">
+          <div class="service__inner">
+            <div class="service__item animate-top">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-1.svg"
+                  alt="programm-1"
+                />
+              </div>
+              <div class="service__subtitle">Программы бодибилдинга</div>
+              <div class="service__text">
+                Вместо того, чтобы тренировать разные части тела на каждой
+                тренировке, вы будете тренировать всю верхнюю часть тела за один
+                сеанс, а нижнюю часть тела и пресс - на другом.
+              </div>
+              <a class="service__link link" href="#">Подробнее</a>
+            </div>
+            <div class="service__item">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-2.svg"
+                  alt="programm-2"
+                />
+              </div>
+              <div class="service__subtitle">Программы по снижению веса</div>
+              <div class="service__text">
+                Если вы пытаетесь сбросить вес, план тренировки для похудения
+                может быть очень полезным. Регулярные физические упражнения
+                могут помочь вам достичь ваших целей здоровым и устойчивым
+                способом.
+              </div>
+              <a class="service__link link" href="#">Подробнее</a>
+            </div>
+            <div class="service__item animate-bottom">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-3.svg"
+                  alt="programm-3"
+                />
+              </div>
+              <div class="service__subtitle">СПА Программы</div>
+              <div class="service__text">
+                SPA – это процедуры для оздоровления организма, в которых
+                используется вода во всех ее проявлениях – от обертывания
+                морскими водорослями и солевых пилингов до термальных ванн.
+              </div>
+              <a class="service__link link" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="reviews__pretitle pretitle">Отзывы</div>
+        <div class="reviews__title title">Что говорят наши Клиенты</div>
+        <div class="container">
+          <div class="reviews__slider">
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-1.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Наталья Иванова</div>
+                  <div class="reviews__proffession">Социальный работник</div>
+                  <div class="reviews__text">
+                    Отличный зал,замечательный тренерский состав,уютная
+                    атмосфера,индивидуальный подход позволяет начать заниматься
+                    с любым уровнем физической подготовки
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-2.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Николай Сидоров</div>
+                  <div class="reviews__proffession">IT специалист</div>
+                  <div class="reviews__text">
+                    Занимаюсь в этом клубе уже 2 года, восторгу нет предела!!!.
+                    Лучше этого зала не встречал, в зале большое разнообразие
+                    тренажеров, много свободных весов, всегда играет хорошая
+                    музыка.
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-3.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Наталья Иванова</div>
+                  <div class="reviews__proffession">Бариста</div>
+                  <div class="reviews__text">
+                    Спасибо Жанне Николаевой за внимание и индивидуальный подход
+                    к каждому, кто посещает ее тренировки. Настоящий
+                    профессионал своего дела, благодаря ее тренровкам стала
+                    чувствовать себя намного лучше.
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-4.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Николай Сидоров</div>
+                  <div class="reviews__proffession">Бизнемен</div>
+                  <div class="reviews__text">
+                    Практичный и удобный зал, со всем необходимым спортивным
+                    инвентарем и тренажерами, удобные раздевалки и душевые.
+                    Фитнес-инструкторы отзывчивы и всегда готовы помочь. Видно,
+                    что в этот зал вложили душу.
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-5.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Наталья Иванова</div>
+                  <div class="reviews__proffession">Домохозяйка</div>
+                  <div class="reviews__text">
+                    Хотелось бы выразить огромную благодарность за качественные
+                    и всегда разнообразные тренировки (не только групповые, но и
+                    индивидуальные) тренеру Алене Васильевой. Это тренер который
+                    знает свое дело.
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(../images/reviews-6.jpg);"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Николай Сидоров</div>
+                  <div class="reviews__proffession">Медицинский работник</div>
+                  <div class="reviews__text">
+                    Поддерживаю отзывы остальных участников, зал просто
+                    потрясающий ! Очень порадовало ответственное отношение
+                    дежурного тренера, показал упражнения , периодически следил
+                    за их выполнением и за моим самочувствием! Обязательно
+                    вернусь сюда еще!
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="training background">
+        <div class="training__inner">
+          <div class="training__image">
+            <img src="images/slide-1.jpg" alt="training-1" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-2.jpg" alt="training-2" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-3.jpg" alt="training-3" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-4.jpg" alt="training-4" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-5.jpg" alt="training-5" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-1.jpg" alt="training-1" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-2.jpg" alt="training-2" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-3.jpg" alt="Training-3" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-4.jpg" alt="Training-4" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-5.jpg" alt="Training-5" />
+          </div>
+        </div>
+      </section>
+      <section class="price background" id="price">
+        <div class="price__pretitle pretitle">Таблица Цен</div>
+        <div class="price__title title">Наши Абонементы</div>
+        <div class="container">
+          <div class="price__inner">
+            <div class="price__item animate-top">
+              <div class="price__item-price">
+                $<span class="price__item-number">10</span>/день
+              </div>
+              <div class="price__item-category">
+                Один день тренировки
+              </div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">
+                  Однодневный доступ ко всем клубам
+                </li>
+                <li class="price__item-offer">Тренировка в группе</li>
+                <li class="price__item-offer">Нет специального тренера</li>
+                <li class="price__item-offer">
+                  Доступ к одному 1 часовому фитнес классу
+                </li>
+                <li class="price__item-offer">Нет доступа в спа-центр</li>
+                <li class="price__item-offer">(Заказывайте Отдельно)</li>
+              </ul>
+              <a href="" class="price__item-link link">Заказать</a>
+            </div>
+            <div class="price__item">
+              <div class="price__item-price">
+                $<span class="price__item-number">49</span>/месяц
+              </div>
+              <div class="price__item-category">
+                Абонемент на 1 месяц
+              </div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">Доступ ко всем клубам</li>
+                <li class="price__item-offer">
+                  Тренировка в группе или в одиночку
+                </li>
+                <li class="price__item-offer">Специальный тренер</li>
+                <li class="price__item-offer">
+                  Доступ к одному 1 часовому фитнес классу
+                </li>
+                <li class="price__item-offer">Доступ в спа-центр</li>
+                <li class="price__item-offer">(Заказывайте Отдельно)</li>
+              </ul>
+              <a href="" class="price__item-link link">Заказать</a>
+            </div>
+            <div class="price__item animate-bottom">
+              <div class="price__item-price">
+                $<span class="price__item-number">65</span>/месяц
+              </div>
+              <div class="price__item-category">
+                Абонемент на 1 год
+              </div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">Доступ ко всем клубам</li>
+                <li class="price__item-offer">
+                  Тренировка в группе или в одиночку
+                </li>
+                <li class="price__item-offer">Специальный тренер</li>
+                <li class="price__item-offer">Доступ к одному фитнес-классу</li>
+                <li class="price__item-offer">Доступ в спа-центр</li>
+                <li class="price__item-offer">(Заказывайте Отдельно)</li>
+              </ul>
+              <a href="" class="price__item-link link">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog background" id="blog">
+        <div class="blog__pretitle pretitle">Блог</div>
+        <div class="blog__title title">Наши Последние Новости</div>
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(../images/blog-1.jpg);"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Фитнес Для Тела</div>
+                <div class="blog__item-title">Начните отжиматься сегодня</div>
+                <div class="blog__item-text">
+                  Фитнес — один из самых популярных спортивных занятий в
+                  современном мире.Целью фитнеса является не достижение
+                  рекордов, а желание вести здоровый образ жизни.
+                </div>
+                <a class="blog__item-link" href="#">Читать далее</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">1d | Марк Резов</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    25
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(../images/blog-2.jpg);"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Упражнения</div>
+                <div class="blog__item-title">
+                  Вы стремитесь к лучшему телу ?
+                </div>
+                <div class="blog__item-text">
+                  Идеальное тело достижима при систематичном повторении 10
+                  упражнений на каждую группу мышц. Каждое упражнение необходимо
+                  повторять 15 раз в 2-3 захода.
+                </div>
+                <a class="blog__item-link" href="#">Читать далее</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">2d | Инга Лузина</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    50
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(../images/blog-3.jpg);"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Фитнесс-клуб</div>
+                <div class="blog__item-title">
+                  Почему тренировка полезна для вас ?
+                </div>
+                <div class="blog__item-text">
+                  Фитнес — один из самых популярных спортивных занятий в
+                  современном мире.Целью фитнеса является не достижение
+                  рекордов, а желание вести здоровый образ жизни.
+                </div>
+                <a class="blog__item-link" href="#">Читать далее</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">2d | Иван Носов</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    71
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(../images/blog-4.jpg);"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">
+                  Тренировочное оборудование
+                </div>
+                <div class="blog__item-title">
+                  Оно действительно имеют значение
+                </div>
+                <div class="blog__item-text">
+                  Для каждого фитнес клуба правильно подобранное и грамотно
+                  расположенное оборудование является одной из важнейших
+                  составляющих успеха посещаемости.
+                </div>
+                <a class="blog__item-link" href="#">Читать далее</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">3d | Павел Светлов</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    39
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact"
+        id="contact"
+        style="background-image: url(../images/contact-bg.jpg);"
+      >
+        <div class="contact__content">
+          <div class="contact__pretitle pretitle">Звоните прямо сейчас.</div>
+          <a class="contact__phone animate-top" href="tel:+19576521268"
+            >+1 957 652 1268</a
+          >
+          <div class="contact__text">
+            Позвонив прямо сейчас , вы получите всю интересующую Вас информацию
+            о нашем тренажерном зале ShapeUp, а так же наши профессональные
+            тренера проконсультируют Вас и помогут подобрать программу
+            теренровок.
+          </div>
+          <a class="contact__link link animate-bottom" href="#"
+            >Заказать Программу</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer background">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__item footer-top__social">
+            <img class="footer-top__logo" src="images/logo.png" alt="Logo" />
+            <div class="footer-top__text">
+              Мы поможем Вам изменить свое тело , а также изменить свою жизнь и
+              достичь желаемых результатов.
+            </div>
+            <div class="footer-top__social-title">Наши Социальные Сети</div>
+            <div class="footer-top__social-inner">
+              <a class="footer-top__social-item icon-facebook" href="#"></a>
+              <a class="footer-top__social-item icon-twitter" href="#"></a>
+              <a class="footer-top__social-item icon-instagram" href="#"></a>
+              <a class="footer-top__social-item icon-youtube-play" href="#"></a>
+              <a class="footer-top__social-item icon-vimeo" href="#"></a>
+            </div>
+          </div>
+          <div class="footer-top__item footer-top__contacts">
+            <div class="footer-top__title">Наши Контакты</div>
+            <div class="footer-top__contact icon-map-marker">
+              23, George Washington Street, New York, USA, 09567
+            </div>
+            <a
+              class="footer-top__contact link-text icon-mobile"
+              href="tel:+19576521268"
+              >+1 957 652 1268</a
+            >
+            <a
+              class="footer-top__contact link-text icon-envelope"
+              href="mailto:info@shapeup.com"
+              >info@shapeup.com</a
+            >
+            <a class="footer-top__contact link-text icon-globe" href="#"
+              >www.shapeup.com</a
+            >
+          </div>
+          <div class="footer-top__item footer-top__tags">
+            <div class="footer-top__title">Поиск по тегам</div>
+            <div class="footer-top__tags-inner">
+              <div class="footer-top__tag link">Тренировка</div>
+              <div class="footer-top__tag link">Спа</div>
+              <div class="footer-top__tag link">График</div>
+              <div class="footer-top__tag link">Тяжелая атлетика</div>
+              <div class="footer-top__tag link">Бокс</div>
+              <div class="footer-top__tag link">Йога</div>
+              <div class="footer-top__tag link">Расположение</div>
+              <div class="footer-top__tag link">Тренера</div>
+              <div class="footer-top__tag link">Зал</div>
+              <div class="footer-top__tag link">Оборудование</div>
+              <div class="footer-top__tag link">Питание</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="footer__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#header">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#about">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#trainers">Тренера</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#service">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#price">Цены</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#blog">Блог</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__copy">Copyright &copy 2018. All Rights Reserved</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  </body>
+</html>
