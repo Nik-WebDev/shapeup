@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ShapeUp</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/libs.min.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-top">
+          <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="Logo" />
+          </a>
+          <nav class="header__menu menu">
+            <div class="menu__btn">
+              <span></span>
+            </div>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link current" href="index.html">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#about">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#trainers">Trainers</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#service">Service</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#reviews">Reviews</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#price">Price</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#blog">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-lang">
+            <select
+              id="cd-dropdown"
+              class="cd-select"
+              onchange="top.location=this.value"
+            >
+              <option value="index.html">En</option>
+              <option value="index_ru.html">Ru</option>
+            </select>
+          </div>
+        </div>
+        <div class="header__main">
+          <div class="header__title">
+            <div class="header__title-top">
+              <span class="header__pretitle"> build </span>
+              your body
+            </div>
+            <div class="header__title-bottom">
+              <span class="header__pretitle"> transform </span>
+              your life
+            </div>
+          </div>
+          <div class="header__text">
+            Join a welcoming gym that exists to help you get to a healthier
+            place - by giving the right support at the right times, in the ways
+            you want
+          </div>
+          <a class="header__link link" href="#price">Get Started</a>
+          <a class="header__link link" href="#about">Learn More</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about background" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__content animate-top">
+              <h1 class="about__pretitle pretitle">About ShapeUp</h1>
+              <div class="about__title title">Welcome to Healthy Life</div>
+              <div class="about__subtitle">
+                Make the most out of your fitness experience with our small
+                group training sessions, personalized exercise programs.
+              </div>
+              <div class="about__text">
+                While we believe in the power of fitness to improve lives, we
+                also know exercise is hard work and everyone can use a little
+                more motivation. So we’ve fused fitness and entertainment so
+                that we can make serious exercise fun.. Our gyms are filled with
+                the best strength and cardio equipment in the industry - all the
+                essentials you need for a great workout. Our world-class
+                personal trainers work with you to experience all the
+                awesomeness that SHapeUp has to offer at an incredibly low
+                price.
+              </div>
+              <a class="about__link" href="#">Learn More</a>
+            </div>
+            <div class="about__video animate-bottom">
+              <iframe
+                width="520"
+                height="520"
+                src="https://www.youtube.com/embed/QLbFX6WtIqw"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trainers background" id="trainers">
+        <h2 class="trainers__pretitle pretitle">Meet</h2>
+        <div class="trainers__title title">our trainers</div>
+        <div class="container">
+          <div class="trainers__inner">
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-1.jpg)"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Artem Popov</p>
+                <span class="trainers__work">Fitness Trainer</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-2.jpg)"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Janna Nikolaeva</p>
+                <span class="trainers__work">Fitness Trainer</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-3.jpg)"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Sam Smit</p>
+                <span class="trainers__work">Fitness Trainer</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-4.jpg)"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Alena Vasilieva</p>
+                <span class="trainers__work">Fitness Trainer</span>
+              </div>
+            </div>
+            <div
+              class="trainers__item"
+              style="background-image: url(images/trainer-5.jpg)"
+            >
+              <div class="trainers__item-content">
+                <p class="trainers__name">Artur Mirov</p>
+                <span class="trainers__work">Fitness Trainer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service" id="service">
+        <h3 class="service__pretitle pretitle">Choose</h3>
+        <div class="service__title title">our programm</div>
+        <div class="container">
+          <div class="service__inner">
+            <div class="service__item animate-top">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-1.svg"
+                  alt="programm-1"
+                />
+              </div>
+              <div class="service__subtitle">Body Building Programs</div>
+              <div class="service__text">
+                Rather than train a different body part each workout, you’ll
+                work your entire upper body in one session and your lower body
+                and abs in another.
+              </div>
+              <a class="service__link link" href="#">Learn More</a>
+            </div>
+            <div class="service__item">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-2.svg"
+                  alt="programm-2"
+                />
+              </div>
+              <div class="service__subtitle">Weight Loose Programs</div>
+              <div class="service__text">
+                If you're trying to lose weight, a weight loss workout plan can
+                be very helpful. Getting regular exercise can help you meet your
+                goals in a healthy, sustainable way
+              </div>
+              <a class="service__link link" href="#">Learn More</a>
+            </div>
+            <div class="service__item animate-bottom">
+              <div class="service__images">
+                <img
+                  class="service__image"
+                  src="images/programm-3.svg"
+                  alt="programm-3"
+                />
+              </div>
+              <div class="service__subtitle">Spa Programs</div>
+              <div class="service__text">
+                SPA is a procedure for healing the body in which water is used
+                in all its manifestations - from seaweed wraps and salt peelings
+                to thermal baths
+              </div>
+              <a class="service__link link" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <h4 class="reviews__pretitle pretitle">Reviews</h4>
+        <div class="reviews__title title">what our clients say</div>
+        <div class="container">
+          <div class="reviews__slider">
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-1.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Natalia Ivanova</div>
+                  <div class="reviews__proffession">Social Worker</div>
+                  <div class="reviews__text">
+                    An excellent gym, a wonderful coaching staff, a cozy
+                    atmosphere, an individual approach allows you to start
+                    practicing with any level of physical fitness.
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-2.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Nikolai Sidorov</div>
+                  <div class="reviews__proffession">IT specialist</div>
+                  <div class="reviews__text">
+                    I have been working in this club for 2 years, there is no
+                    limit to my delight!!!. This is the best gym I have ever
+                    seen, there is a wide variety of gym equipment, a lot of
+                    free weights, and good music is always playing.
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-3.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Natalia Ivanova</div>
+                  <div class="reviews__proffession">Barista</div>
+                  <div class="reviews__text">
+                    Thank you to Zhanna Ostrovskaya for the attention and
+                    individual approach to everyone who attends her training. A
+                    true professional in her field, thanks to her training, she
+                    began to feel much better.
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-4.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Nikolai Sidorov</div>
+                  <div class="reviews__proffession">Businessman</div>
+                  <div class="reviews__text">
+                    Practical and comfortable gym, with all necessary sports
+                    equipment and exercise equipment, comfortable changing rooms
+                    and showers. Fitness instructors are responsive and always
+                    ready to help. It is clear that the soul was put into this
+                    hall.
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-5.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Natalia Ivanova</div>
+                  <div class="reviews__proffession">Housewife</div>
+                  <div class="reviews__text">
+                    I would like to Express my gratitude to coach Alena Gulyan
+                    for high-quality and always varied training sessions (not
+                    only group, but also individual). This is a coach who knows
+                    his job.
+                  </div>
+                  <div class="rate-star"></div>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div
+                  class="reviews__image"
+                  style="background-image: url(images/reviews-6.jpg)"
+                ></div>
+                <div class="reviews__content">
+                  <div class="reviews__subtitle pretitle">Nikolai Sidorov</div>
+                  <div class="reviews__proffession">Medical worker</div>
+                  <div class="reviews__text">
+                    I support the reviews of other participants, the hall is
+                    simply amazing ! I was very pleased with the responsible
+                    attitude of the duty coach, showed the exercises,
+                    periodically monitored their implementation and my health! I
+                    will definitely come back here again!
+                  </div>
+                  <div class="rate-star-four"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="training background">
+        <div class="training__inner">
+          <div class="training__image">
+            <img src="images/slide-1.jpg" alt="training-1" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-2.jpg" alt="training-2" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-3.jpg" alt="training-3" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-4.jpg" alt="training-4" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-5.jpg" alt="training-5" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-1.jpg" alt="training-1" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-2.jpg" alt="training-2" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-3.jpg" alt="Training-3" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-4.jpg" alt="Training-4" />
+          </div>
+          <div class="training__image">
+            <img src="images/slide-5.jpg" alt="Training-5" />
+          </div>
+        </div>
+      </section>
+      <section class="price background" id="price">
+        <h5 class="price__pretitle pretitle">Pricing Table</h5>
+        <div class="price__title title">Our Membership Plans</div>
+        <div class="container">
+          <div class="price__inner">
+            <div class="price__item animate-top">
+              <div class="price__item-price">
+                $<span class="price__item-number">10</span>/day
+              </div>
+              <div class="price__item-category">One Day Training</div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">One day access to all clubs</li>
+                <li class="price__item-offer">Training in group</li>
+                <li class="price__item-offer">No Dedicated trainer</li>
+                <li class="price__item-offer">
+                  Access to one 1 hour fitness class
+                </li>
+                <li class="price__item-offer">No access to spa center</li>
+                <li class="price__item-offer">(Book Separately)</li>
+              </ul>
+              <a href="" class="price__item-link link">Book Now</a>
+            </div>
+            <div class="price__item">
+              <div class="price__item-price">
+                $<span class="price__item-number">49</span>/month
+              </div>
+              <div class="price__item-category">One Month Subscription</div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">Access to all clubs</li>
+                <li class="price__item-offer">Training in group or alone</li>
+                <li class="price__item-offer">Dedicated trainer</li>
+                <li class="price__item-offer">
+                  Access to one 1 hour fitness class
+                </li>
+                <li class="price__item-offer">Access to spa center</li>
+                <li class="price__item-offer">(Book Separately)</li>
+              </ul>
+              <a href="" class="price__item-link link">Book Now</a>
+            </div>
+            <div class="price__item animate-bottom">
+              <div class="price__item-price">
+                $<span class="price__item-number">65</span>/month
+              </div>
+              <div class="price__item-category">One Year Subscription</div>
+              <ul class="price__item-menu">
+                <li class="price__item-offer">Access to all clubs</li>
+                <li class="price__item-offer">Training in group or alone</li>
+                <li class="price__item-offer">Dedicated trainer</li>
+                <li class="price__item-offer">Access to one fitness class</li>
+                <li class="price__item-offer">Access to spa center</li>
+                <li class="price__item-offer">(Book Separately)</li>
+              </ul>
+              <a href="" class="price__item-link link">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog background" id="blog">
+        <h6 class="blog__pretitle pretitle">Blog</h6>
+        <div class="blog__title title">our latest news</div>
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(images/blog-1.jpg)"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Body Fitness</div>
+                <div class="blog__item-title">
+                  Start your push-ups today and see results
+                </div>
+                <div class="blog__item-text">
+                  Fitness is one of the most popular sports activities in the
+                  modern world.The goal of fitness is not to achieve records,
+                  but to lead a healthy lifestyle.
+                </div>
+                <a class="blog__item-link" href="#">Continue reading</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">1d | Mark Rezov</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    25
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(images/blog-2.jpg)"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Exersize</div>
+                <div class="blog__item-title">
+                  Are you commited for better body ?
+                </div>
+                <div class="blog__item-text">
+                  Perfect body is achievable with a systematic repetition of 10
+                  exercises for each muscle group. Each exercise should be
+                  repeated 15 times in 2-3 sets.
+                </div>
+                <a class="blog__item-link" href="#">Continue reading</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">2d | Inga Luzina</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    50
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(images/blog-3.jpg)"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Fitness Club</div>
+                <div class="blog__item-title">
+                  Why working out is good for you ?
+                </div>
+                <div class="blog__item-text">
+                  Fitness is one of the most popular sports activities in the
+                  modern world.The goal of fitness is not to achieve records,
+                  but to lead a healthy lifestyle.
+                </div>
+                <a class="blog__item-link" href="#">Continue reading</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">2d | Ivan Nosov</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    71
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div
+                class="blog__item-image"
+                style="background-image: url(images/blog-4.jpg)"
+              ></div>
+              <div class="blog__item-content">
+                <div class="blog__item-pretitle">Training Equipments</div>
+                <div class="blog__item-title">
+                  Liftings things do make a difference
+                </div>
+                <div class="blog__item-text">
+                  For each fitness club, correctly selected and correctly
+                  located equipment is one of the most important components of
+                  attendance success.
+                </div>
+                <a class="blog__item-link" href="#">Continue reading</a>
+                <div class="blog__item-info">
+                  <div class="blog__item-name">3d | Pavel Svetlov</div>
+                  <div class="blog__item-likes">
+                    <span class="icon-heart"></span>
+                    39
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact"
+        id="contact"
+        style="background-image: url(images/contact-bg.jpg)"
+      >
+        <div class="contact__content">
+          <h6 class="contact__pretitle pretitle">Call Us Today</h6>
+          <a class="contact__phone animate-top" href="tel:+19576521268"
+            >+1 957 652 1268</a
+          >
+          <div class="contact__text">
+            By calling right now, you will get all the information you need
+            about our Shape Up gym, as well as our professorial coaches will
+            advise You and help you choose a training program..
+          </div>
+          <a class="contact__link link animate-bottom" href="#"
+            >Book a Programm</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer background">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__item footer-top__social">
+            <img class="footer-top__image" src="images/logo.png" alt="Logo" />
+            <div class="footer-top__text">
+              We will help you change your body, as well as change your life and
+              achieve the desired results.
+            </div>
+            <div class="footer-top__social-title">Follow Us</div>
+            <div class="footer-top__social-inner">
+              <a class="footer-top__social-item icon-facebook" href="#"></a>
+              <a class="footer-top__social-item icon-twitter" href="#"></a>
+              <a class="footer-top__social-item icon-instagram" href="#"></a>
+              <a class="footer-top__social-item icon-youtube-play" href="#"></a>
+              <a class="footer-top__social-item icon-vimeo" href="#"></a>
+            </div>
+          </div>
+          <div class="footer-top__item footer-top__contacts">
+            <div class="footer-top__title">Quick Contacts</div>
+            <div class="footer-top__contact icon-map-marker">
+              23, George Washington Street, New York, USA, 09567
+            </div>
+            <a
+              class="footer-top__contact link-text icon-mobile"
+              href="tel:+19576521268"
+              >+1 957 652 1268</a
+            >
+            <a
+              class="footer-top__contact link-text icon-envelope"
+              href="mailto: info@shapeup.com"
+              >info@shapeup.com</a
+            >
+            <a class="footer-top__contact link-text icon-globe" href="#"
+              >www.shapeup.com</a
+            >
+          </div>
+          <div class="footer-top__item footer-top__tags">
+            <div class="footer-top__title">Popular Search Tags</div>
+            <div class="footer-top__tags-inner">
+              <div class="footer-top__tag link">Workout</div>
+              <div class="footer-top__tag link">Spa</div>
+              <div class="footer-top__tag link">Schedule</div>
+              <div class="footer-top__tag link">Weightlifing</div>
+              <div class="footer-top__tag link">Boxing</div>
+              <div class="footer-top__tag link">Yoga</div>
+              <div class="footer-top__tag link">Location</div>
+              <div class="footer-top__tag link">Trainers</div>
+              <div class="footer-top__tag link">Class</div>
+              <div class="footer-top__tag link">Equipments</div>
+              <div class="footer-top__tag link">Nutrition</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="footer__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#header">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#trainers">Trainers</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#service">Service</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#reviews">Reviews</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#price">Price</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__copy">
+        Copyright&ampcopy 2018. All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  </body>
+</html>
